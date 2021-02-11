@@ -5,4 +5,5 @@
     <string name="ben">Ben</string>
     <string name="welcome_to_team_k">Welcome to Team K!</string>
     <string name="click_on_one_of_our_names_to_find_out_more">Click on one of our names to find out more:</string>
+    <string name="robs_description">My name is Robert <br/> This is me testing if breaks work. <br/>Similarily to html.</string>
 </resources>
