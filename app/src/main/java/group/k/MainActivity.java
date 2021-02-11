@@ -10,6 +10,7 @@ import android.widget.Button;
 public class MainActivity extends AppCompatActivity {
 
     private Button robsButton;
+    private Button chloeButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,10 +24,25 @@ public class MainActivity extends AppCompatActivity {
                 openRobsActivity();
             }
         });
+
+        chloeButton=findViewById(R.id.button_chloe);
+        chloeButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openchloeActivity();
+
+            }
+        });
     }
 
     private void openRobsActivity() {
         Intent intent = new Intent(this, robsPage.class );
+        startActivity(intent);
+    }
+
+    private void openchloeActivity()
+    {
+        Intent intent=new Intent(this, chloeActivity.class);
         startActivity(intent);
     }
 }
