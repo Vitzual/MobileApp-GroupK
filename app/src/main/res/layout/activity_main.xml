@@ -66,7 +66,7 @@
         android:id="@+id/button_ben"
         android:layout_width="411dp"
         android:layout_height="145dp"
-
+        android:backgroundTint="#14bdff"
         android:text="@string/ben"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
