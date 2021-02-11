@@ -1,9 +1,12 @@
 <resources>
     <string name="app_name">Group K</string>
-    <string name="chloe">Chloe</string>
-    <string name="robert">Robert</string>
-    <string name="ben">Ben</string>
-    <string name="welcome_to_team_k">Welcome to Team K!</string>
-    <string name="click_on_one_of_our_names_to_find_out_more">Click on one of our names to find out more:</string>
-    <string name="robs_description">My name is Robert <br/> This is me testing if breaks work. <br/>Similarily to html.</string>
+    <string name="title_activity_chloe">chloeActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
 </resources>
