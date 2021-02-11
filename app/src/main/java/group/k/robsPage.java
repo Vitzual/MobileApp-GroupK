@@ -1,7 +1,6 @@
 package group.k;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 
 public class robsPage extends AppCompatActivity {
