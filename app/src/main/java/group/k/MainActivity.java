@@ -9,9 +9,12 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
+    // Declare each members buttons
     private Button robsButton;
     private Button chloeButton;
+    private Button bensButton;
 
+    // OnCreate method, assigns buttons and creates OnClick listeners for the buttons
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -33,6 +36,14 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+
+        bensButton = findViewById(R.id.button_ben);
+        bensButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openBensActivity();
+            }
+        });
     }
 
     private void openRobsActivity() {
@@ -40,9 +51,13 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    private void openchloeActivity()
-    {
-        Intent intent=new Intent(this, chloeActivity.class);
+    private void openchloeActivity() {
+        Intent intent = new Intent(this, chloeActivity.class);
+        startActivity(intent);
+    }
+
+    private void openBensActivity() {
+        Intent intent = new Intent(this, BensPage.class);
         startActivity(intent);
     }
 }
