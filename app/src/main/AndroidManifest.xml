@@ -12,7 +12,11 @@
         <activity
             android:name=".chloeActivity"
             android:label="@string/title_activity_chloe"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".BensPage"
+            android:label="BensPage"
+            android:theme="@style/AppTheme.NoActionBar"/>
         <activity
             android:name=".robsPage"
             android:label="robsPage"
