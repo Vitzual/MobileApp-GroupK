@@ -9,25 +9,24 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button button;
+    private Button robsButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        button=(Button)findViewById(R.id.button_chloe);
-        button.setOnClickListener(new View.OnClickListener() {
+        robsButton = findViewById(R.id.button_robert);
+        robsButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openchloeActivity();
+                openRobsActivity();
             }
         });
     }
 
-    public void openchloeActivity()
-    {
-        Intent intent=new Intent(this, chloeActivity.class);
+    private void openRobsActivity() {
+        Intent intent = new Intent(this, robsPage.class );
         startActivity(intent);
     }
 }
