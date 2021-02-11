@@ -19,4 +19,11 @@
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="hi_im_chloe_i_am_in_a_bachelors_of_computing_science_and_i_spend_my_summers_planting_trees_and_being_the_first_aid_attendant_in_our_camp">Hi! Im Chloe, I am in a Bachelors of Computing Science and I spend my summers planting trees and being the First Aid Attendant in our camp!</string>
+
+    <!-- Ben Nichols hard coded strings -->
+    <string name="ben_nichols_name">Ben Nichols</string>
+    <string name="ben_nichols_description">Hello, I\'m Ben Nichols, a passionate programmer attending university. I enjoy swimming competively with the WolfPack, and enjoy programming / gaming in my spare time.</string>
+    <string name="ben_nichols_pet">This is a picture of my Corgi, Rosieanne!</string>
+    <string name="todo">TODO</string>
+
 </resources>
