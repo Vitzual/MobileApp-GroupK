@@ -13,6 +13,12 @@
             android:name=".chloeActivity"
             android:label="@string/title_activity_chloe"
             android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".robsPage"
+            android:label="robsPage"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
